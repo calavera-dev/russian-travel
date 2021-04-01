@@ -1,0 +1,18 @@
+.body__container {
+  padding: 0 16px;
+}
+@media (min-width: 768px) {
+  .body__container {
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .body__container {
+    padding: 0 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .body__container {
+    padding: 0 148px;
+  }
+}

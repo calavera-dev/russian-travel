@@ -1,0 +1,29 @@
+.places {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  display: grid;
+  padding: 64px 0 0 0;
+  row-gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places {
+    padding: 88px 0 0 0;
+    margin: 0 24px;
+    row-gap: 73px;
+  }
+}
+@media (min-width: 1024px) {
+  .places {
+    padding: 92px 0 0 0;
+    margin: 0 48px;
+    row-gap: 80px;
+  }
+}
+@media (min-width: 1280px) {
+  .places {
+    padding: 92px 0 0 0;
+    margin: 0 148px;
+    row-gap: 80px;
+  }
+}

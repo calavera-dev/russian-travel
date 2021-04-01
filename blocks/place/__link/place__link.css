@@ -1,0 +1,11 @@
+.place__link {
+  color: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.place__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
