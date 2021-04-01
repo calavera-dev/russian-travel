@@ -1,25 +1,21 @@
 .place__paragraph {
-  color: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
   margin: 0;
 }
 .place__paragraph:nth-child(2) {
-  margin: 25px 0 0 0;
+  margin: 25px 0px 0px 0px;
 }
 @media (min-width: 768px) {
   .place__paragraph:nth-child(2) {
-    margin: 27px 0 0 0;
+    margin: 27px 0px 0px 0px;
   }
 }
 @media (min-width: 1024px) {
   .place__paragraph:nth-child(2) {
-    margin: 27px 0 0 0;
+    margin: 27px 0px 0px 0px;
   }
 }
 @media (min-width: 1280px) {
   .place__paragraph:nth-child(2) {
-    margin: 27px 0 0 0;
+    margin: 27px 0px 0px 0px;
   }
 }

@@ -3,7 +3,7 @@
   font-size: 40px;
   font-weight: 900;
   line-height: 44px;
-  margin: 48px 0 0 0;
+  margin: 48px 0px 0px 0px;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
     max-width: 70%;
     font-size: 96px;
     line-height: 100px;
-    margin: 48px auto 0;
+    margin: 48px auto 0px;
   }
 }
 @media (min-width: 1280px) {
@@ -26,6 +26,6 @@
     max-width: 60%;
     font-size: 96px;
     line-height: 100px;
-    margin: 56px auto 0;
+    margin: 56px auto 0px;
   }
 }

@@ -5,8 +5,7 @@
   font-size: 32px;
   line-height: 35px;
   margin: 0;
-  padding: 0 16px;
-  width: 340px;
+  padding: 0px 16px;
 }
 @media (min-width: 768px) {
   .place__title {

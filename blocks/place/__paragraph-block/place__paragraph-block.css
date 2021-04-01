@@ -1,6 +1,9 @@
 .place__paragraph-block {
-  color: #fff;
-  padding: 0 16px;
+  color:inherit;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 400;
+  padding: 0px 16px;
   margin: 0;
 }
 @media (min-width: 768px) {

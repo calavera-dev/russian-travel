@@ -10,7 +10,7 @@
 @media (min-width: 768px) {
   .lead__subtitle {
     max-width: 80%;
-    margin: 32px auto 0;
+    margin: 32px auto 0px;
     font-size: 30px;
     line-height: 36px;
   }
@@ -18,7 +18,7 @@
 @media (min-width: 1024px) {
   .lead__subtitle {
     max-width: 60%;
-    margin: 32px auto 0;
+    margin: 32px auto 0px;
     font-size: 30px;
     line-height: 36px;
   }
@@ -26,7 +26,7 @@
 @media (min-width: 1280px) {
   .lead__subtitle {
     max-width: 50%;
-    margin: 32px auto 0;
+    margin: 32px auto 0px;
     font-size: 30px;
     line-height: 36px;
   }

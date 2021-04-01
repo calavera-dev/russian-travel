@@ -2,12 +2,22 @@
   font-family: 'Inter', Arial, sans-serif;
   color: #FFF;
   display: flex;
-  margin: 16px 0 0 0;
+  padding: 16px 16px 0px;
   justify-content: space-between;
 }
 
 @media (min-width: 768px) {
   .header {
-    margin: 28px 0 0 0;
+    padding: 28px 24px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    padding: 28px 48px 0px;
+  }
+}
+@media (min-width: 1280px) {
+  .header {
+    padding: 28px 48px 0px;
   }
 }
