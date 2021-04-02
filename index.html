@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -11,10 +11,10 @@
 
 <body class="body">
   <header class="header">
-    <img src="./images/header-logo.svg" alt="logo" class="header__logo">
+    <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
     <div class="header__lang-links">
-      <a href="#" target="_blank" class="header__lang-link header__lang-link_ru">Ru</a>
-      <a href="#" target="_blank" class="header__lang-link header__lang-link_en">En</a>
+      <a href="#" target="_blank" class="header__lang-link header__lang-link_active">Ru</a>
+      <a href="#" target="_blank" class="header__lang-link">En</a>
     </div>
   </header>
   <main class="main">
@@ -23,8 +23,8 @@
         по России</h1>
       <p class="lead__subtitle body__container">Настоящая страна не в выпусках
         новостей, а здесь.</p>
-        <img src="./images/lead-polka.jpg" alt="polka"  class="lead__image">
-        <p class="lead__caption body__container">ваша полка — верхняя</p>
+        <img src="./images/lead-polka.jpg" alt="полка"  class="lead__image">
+        <p class="lead__caption  body__container">ваша полка — верхняя</p>
     </section>
     <section class="intro body__container">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -36,35 +36,35 @@
         взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали
         и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__list-item">Часовых поясов 11</li>
-        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="intro__list-item">Природных заповедников 105</li>
-        <li class="intro__list-item">Аэропортов 241</li>
+        <li class="intro__list-item"><span class="intro__list-text">Часовых поясов</span> 11</li>
+        <li class="intro__list-item"><span class="intro__list-text">Объектов природного наследия ЮНЕСКО</span> 12</li>
+        <li class="intro__list-item"><span class="intro__list-text">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+        <li class="intro__list-item"><span class="intro__list-text">Природных заповедников</span> 105</li>
+        <li class="intro__list-item"><span class="intro__list-text">Аэропортов</span> 241</li>
       </ul>
     </section>
     <section class="photo-grid">
-      <img src="./images/photo-grid-train.jpg" alt="train" class="photo-grid__item">
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="tulsi" class="photo-grid__item">
-      <img src="./images/photo-grid-tuman.jpg" alt="tuman" class="photo-grid__item">
-      <img src="./images/photo-grid-sochi.jpg" alt="sochi" class="photo-grid__item">
-      <img src="./images/photo-grid-arisa.jpg" alt="arisa" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal.jpg" alt="baikal" class="photo-grid__item">
-      <img src="./images/photo-grid-elbrus.jpg" alt="elbrus" class="photo-grid__item">
-      <img src="./images/photo-grid-kondratiev.jpg" alt="kondr" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="kamchatka1" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="kamchatka2" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal-2.jpg" alt="baikal2" class="photo-grid__item">
-      <img src="./images/photo-grid-ergaki.jpg" alt="ergaki" class="photo-grid__item">
+      <img src="./images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
+      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Тулси" class="photo-grid__item">
+      <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
+      <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
+      <img src="./images/photo-grid-arisa.jpg" alt="Ариса" class="photo-grid__item">
+      <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
+      <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+      <img src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев" class="photo-grid__item">
+      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка1" class="photo-grid__item">
+      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка2" class="photo-grid__item">
+      <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал2" class="photo-grid__item">
+      <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
     </section>
     <section class="places">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
-        <address class="place__website">
+        <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
-        </address>
-        <img src="./images/place-kosa.jpg" alt="place-kosa" class="place__image">
+        </div>
+        <img src="./images/place-kosa.jpg" alt="Куршская Коса" class="place__image">
         <div class="place__paragraph-block">
           <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
             горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -83,7 +83,7 @@
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National
             Geographic</a>
         </address>
-        <img src="./images/place-kolsky.jpg" alt="place-kolsky" class="place__image">
+        <img src="./images/place-kolsky.jpg" alt="Кольский полуостров" class="place__image">
         <div class="place__paragraph-block">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
             от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -100,7 +100,7 @@
           <p class="place__url-heading">URL</p>
           <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
         </address>
-        <img src="./images/place-altai.jpg" alt="place-altai" class="place__image">
+        <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
         <div class="place__paragraph-block">
           <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать
             вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле
@@ -118,7 +118,7 @@
           <p class="place__url-heading">URL</p>
           <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
         </address>
-        <img src="./images/place-winter-baikal.jpg" alt="place-winter-baikal" class="place__image">
+        <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
         <div class="place__paragraph-block">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также
             знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -134,13 +134,15 @@
           <p class="place__url-heading">URL</p>
           <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
         </address>
-        <img src="./images/place-karelia.jpg" alt="place-karelia" class="place__image">
-        <p class="place__paragraph-block">Сибирь заканчивается не на Урале, а в Карелии: образующая
+        <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
+        <div class="place__paragraph-block">
+          <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая
           тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
           национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
           полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В
           девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли
           помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+        </div>
       </div>
     </section>
     <section class="cover">

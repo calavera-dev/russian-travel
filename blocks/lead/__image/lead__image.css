@@ -1,5 +1,5 @@
 .lead__image {
-  width: 100%;
+  max-width: 100%;
   margin: 40px 0px 0px 0px;
 }
 
@@ -19,6 +19,5 @@
   .lead__image {
     max-width: 984px;
     margin: 64px auto 0px;
-    display: block;
   }
 }
