@@ -16,8 +16,3 @@
     font-size: 18px;
   }
 }
-@media (min-width: 1280px) {
-  .place__paragraph-block {
-    font-size: 18px;
-  }
-}

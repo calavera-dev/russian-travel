@@ -1,19 +1,19 @@
 .intro {
   font-family: 'Inter', Arial, sans-serif;
   color: #FFF;
-  margin: 64px auto 0px;
-  display: block;
-  max-width: 928px;
+  margin: 64px 16px 0px; 
 }
 
 @media (min-width: 768px) {
   .intro {
     margin: 88px auto 0px;
+    max-width: 720px;
   }
 }
 @media (min-width: 1024px) {
   .intro {
     margin: 92px auto 0px;
+    max-width: 928px;
   }
 }
 @media (min-width: 1280px) {

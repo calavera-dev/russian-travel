@@ -22,10 +22,3 @@
     max-width: 440px;
   }
 }
-@media (min-width: 1280px) {
-  .place__title {
-    font-size: 72px;
-    line-height: 76px;
-    max-width: 440px;
-  }
-}

@@ -2,28 +2,26 @@
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
   display: grid;
-  padding: 64px 0px 0px 0px;
+  margin: 64px 0px 0px 0px;
   row-gap: 50px;
 }
 
 @media (min-width: 768px) {
   .places {
-    padding: 88px 0px 0px 0px;
-    margin: 0px 24px;
+    margin: 88px auto 0px;
+    max-width: 720px;
     row-gap: 73px;
   }
 }
 @media (min-width: 1024px) {
   .places {
-    padding: 92px 0px 0px 0px;
-    margin: 0px 48px;
+    margin: 92px auto 0px;
+    min-width: 928px;
     row-gap: 80px;
   }
 }
 @media (min-width: 1280px) {
   .places {
-    padding: 92px 0px 0px 0px;
-    margin: 0px 148px;
-    row-gap: 80px;
+    max-width: 984px;
   }
 }

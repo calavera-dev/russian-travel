@@ -1,19 +1,10 @@
 .footer__link-block {
+  color: inherit;
   margin: 0;
   padding: 0;
 }
 
 @media (min-width: 768px) {
-  .footer__link-block {
-    display: flex;
-  }
-}
-@media (min-width: 1024px) {
-  .footer__link-block {
-    display: flex;
-  }
-}
-@media (min-width: 1280px) {
   .footer__link-block {
     display: flex;
   }

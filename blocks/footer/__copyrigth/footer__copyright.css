@@ -11,13 +11,3 @@
     margin: 0;
   }
 }
-@media (min-width: 1024px) {
-  .footer__copyright {
-    margin: 0;
-  }
-}
-@media (min-width: 1280px) {
-  .footer__copyright {
-    margin: 0;
-  }
-}

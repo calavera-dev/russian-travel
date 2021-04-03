@@ -5,7 +5,7 @@
   font-size: 18px;
   line-height: 20px;
 }
-.header__lang-link:nth-child(1) {
+.header__lang-link:first-child {
   margin: 0 18px 0 0;
 }
 .header__lang-link:hover {
@@ -13,18 +13,6 @@
 }
 
 @media (min-width: 768px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-@media (min-width: 1024px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-@media (min-width: 1280px) {
   .header__lang-link {
     font-size: 24px;
     line-height: 28px;
